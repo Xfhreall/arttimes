@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --black-color: #11101d;
+  --white-color: #f1f1fa;
+  --sky-color: #e4e9f7;
+  --light-black: #1d1b31;
+  --shadow-dark: rgb(196, 196, 196);
+  --content: #1f1e33;
+  --card-content: #212124;
+  --transition-time: 0.5s;
+  --light: #d8dbe0;
+  --dark: #28292c;
+}
+
+.light-theme {
+  --black-color: #f1f1fa;
+  --white-color: #11101d;
+  --sky-color: #1d1b31;
+  --light-black: #e4e9f7;
+  --shadow-dark: rgb(97, 95, 95);
+  --content: #e3e3ee;
+  --card-content: #cacad1;
+  --light: #d8dbe0;
+  --dark: #28292c;
+}
+
+::selection {
+  color: var(--white-color);
+  background: #10a184;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--black-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1abc9c;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
