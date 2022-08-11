@@ -29,6 +29,7 @@ const Footer = () => {
             data-aos="fade-left"
             data-aos-duration="700"
           >
+            {/* eslint-disable-next-line */}
             <h4>follow us</h4>
             <div className="social-links">
               <a href="#">
