@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Monserrat:wght@200;300;400;500;600;700&display=swap");
+#beranda {
+  position: relative;
+  width: 100%;
+  height: 89vh;
+  display: flex;
+  align-items: center;
+  background-color: var(--black-color);
+  justify-content: space-between;
+}
+
+#beranda::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background: url("../assets/img/herobg.png"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  filter: brightness(40%);
+}
+
+.hero-content {
+  position: relative;
+  font-family: "Monserrat", sans-serif;
+  color: white;
+  text-align: start;
+  top: 4rem;
+  margin-left: 10%;
+}
+
+.hero-image {
+  margin-right: 10%;
+}
+.hero-image img {
+  margin-top: 8em;
+  width: 29em;
+  height: 24em;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.hero-subtitle {
+  font-size: 20px;
+  font-weight: 250;
+  margin-top: 1rem;
+}
+
+.button {
+  display: inline-flex;
+  height: 40px;
+  width: 150px;
+  border: 2px solid #bfc0c0;
+  margin: 40px auto;
+  color: #bfc0c0;
+  border-radius: 6px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 0.8em;
+  letter-spacing: 1.5px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transition: all 0.45 ease-out;
+  -webkit-transition: all 0.45 ease-out;
+  -moz-transition: all 0.45 ease-out;
+  -ms-transition: all 0.45 ease-out;
+  -o-transition: all 0.45 ease-out;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+.button a {
+  color: #e4e9f7;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+#button-3 {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+#button-3 a {
+  position: relative;
+  transition: all 0.45s ease-Out;
+}
+
+#circle {
+  width: 150px;
+  height: 40px;
+  background: #1abc9c;
+  position: absolute;
+  transition: all 0.4s ease-Out;
+  top: 0;
+  left: -110%;
+  -webkit-transition: all 0.4s ease-Out;
+  -moz-transition: all 0.4s ease-Out;
+  -ms-transition: all 0.4s ease-Out;
+  -o-transition: all 0.4s ease-Out;
+}
+
+#button-3:hover {
+  border-color: #1abc9c;
+}
+#button-3:hover a {
+  color: #000;
+}
+#button-3:hover #circle {
+  left: 0%;
+}
+
+.scrolldown {
+  --color: #1abc9c;
+  position: fixed;
+  width: 20px;
+  height: 40px;
+  border: 2px solid var(--color);
+  border-radius: 50px;
+  right: 7vh;
+  bottom: 7vh;
+}
+.scrolldown::before {
+  content: "";
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  width: 6px;
+  height: 6px;
+  margin-left: -3px;
+  background-color: var(--color);
+  border-radius: 100%;
+  -webkit-animation: scrolldown-anim 2s infinite;
+  animation: scrolldown-anim 2s infinite;
+  box-shadow: 0px -5px 3px 1px rgba(42, 84, 112, 0.4);
+}
+
+@-webkit-keyframes scrolldown-anim {
+  0% {
+    opacity: 0;
+    height: 6px;
+  }
+  40% {
+    opacity: 1;
+    height: 10px;
+  }
+  80% {
+    transform: translate(0, 20px);
+    height: 10px;
+    opacity: 0;
+  }
+  100% {
+    height: 3px;
+    opacity: 0;
+  }
+}
+@keyframes scrolldown-anim {
+  0% {
+    opacity: 0;
+    height: 6px;
+  }
+  40% {
+    opacity: 1;
+    height: 10px;
+  }
+  80% {
+    transform: translate(0, 20px);
+    height: 10px;
+    opacity: 0;
+  }
+  100% {
+    height: 3px;
+    opacity: 0;
+  }
+}
+.chevrons {
+  padding: 6px 0 0 0;
+  margin-left: -3px;
+  margin-top: 40px;
+  width: 23px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chevrondown {
+  margin-top: -6px;
+  position: relative;
+  border: solid var(--color);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  transform: rotate(45deg);
+}
+.chevrondown:nth-child(odd) {
+  -webkit-animation: pulse54012 500ms ease infinite alternate;
+  animation: pulse54012 500ms ease infinite alternate;
+}
+.chevrondown:nth-child(even) {
+  -webkit-animation: pulse54012 500ms ease infinite alternate 250ms;
+  animation: pulse54012 500ms ease infinite alternate 250ms;
+}
+
+@-webkit-keyframes pulse54012 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.5;
+  }
+}
+@keyframes pulse54012 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.5;
+  }
+}/*# sourceMappingURL=heroPage.css.map */

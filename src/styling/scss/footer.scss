@@ -1,0 +1,118 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css");
+
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 4em;
+    justify-content: center;
+
+    .container & {
+        max-width: 1170px;
+        margin: auto;
+        overflow: hidden;
+    }
+
+    .footer-col {
+        width: 25%;
+        padding: 0 15px;
+
+        h4 {
+            font-size: 18px;
+            color: #ffffff;
+            text-transform: capitalize;
+            margin-bottom: 35px;
+            font-weight: 500;
+            position: relative;
+        }
+
+        h4::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: -8px;
+            background-color: #1abc9c;
+            height: 2.3px;
+            box-sizing: border-box;
+            width: 60px;
+            border-radius: 8px;
+            -webkit-border-radius: 8px;
+            -moz-border-radius: 8px;
+            -ms-border-radius: 8px;
+            -o-border-radius: 8px;
+        }
+
+        ul {
+            list-style: none;
+
+            li {
+                &:not(:last-child) {
+                    margin-bottom: 10px;
+                }
+
+                a {
+                    font-size: 16px;
+                    text-transform: capitalize;
+                    color: #ffffff;
+                    text-decoration: none;
+                    font-weight: 300;
+                    color: #bbbbbb;
+                    display: block;
+                    transition: all 0.3s ease;
+
+                    &:hover {
+                        color: #ffffff;
+                        padding-left: 8px;
+                    }
+                }
+            }
+
+
+        }
+
+        .social-links a {
+            display: inline-block;
+            height: 40px;
+            width: 40px;
+            background-color: rgba(255, 255, 255, 0.2);
+            margin: 0 10px 10px 0;
+            text-align: center;
+            line-height: 40px;
+            border-radius: 50%;
+            color: #ffffff;
+            transition: all 0.5s ease;
+
+            &:hover {
+                color: #24262b;
+                background-color: #ffffff;
+            }
+        }
+
+    }
+}
+
+.author {
+    display: flex;
+    justify-content: center;
+    margin-top: 6em;
+
+    p {
+        color: #ffffff59;
+    }
+}
+
+
+/*responsive*/
+@media (max-width: 767px) {
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 574px) {
+    .footer-col {
+        width: 100%;
+    }
+}

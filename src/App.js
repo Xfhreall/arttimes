@@ -1,17 +1,21 @@
 // import Element`
-import Navtop from "./component/Navtop";
-import HeroPage from "./component/HeroPage";
-import About from "./component/About";
-import Product from "./component/Product";
-import Contact from "./component/Contact";
-import Footer from "./component/Footer";
+import Navtop from "../../component/Navtop";
+import HeroPage from "../../component/HeroPage";
+import About from "../../component/About";
+import Product from "../../component/Product";
+import Contact from "../../component/Contact";
+import Footer from "../../component/Footer";
+import LinkHero from "../../component/LinkHero";
+import Ingredient from "../../component/Ingredient";
 // import css
-import "./styling/navtop.css";
-import "./styling/heroPage.css";
-import "./styling/aboutPage.css";
-import "./styling/product.css";
-import "./styling/contact.css";
-import "./styling/footer.css";
+import "./styling/css/navtop.css";
+import "./styling/css/heroPage.css";
+import "./styling/css/aboutPage.css";
+import "./styling/css/product.css";
+import "./styling/css/contact.css";
+import "./styling/css/footer.css";
+import "./styling/css/linkHero.css";
+import "./styling/css/ingredient.css";
 
 function App() {
   return (
@@ -21,6 +25,12 @@ function App() {
       </div>
       <div className="heroPage">
         <HeroPage />
+      </div>
+      <div className="linkHero">
+        <LinkHero />
+      </div>
+      <div className="ingredient">
+        <Ingredient />
       </div>
       <div className="about">
         <About />

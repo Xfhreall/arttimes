@@ -5,8 +5,7 @@
   background-color: var(--black-color);
   justify-content: center;
 }
-
-.isi {
+#tentang .isi {
   display: flex;
   flex-direction: column;
   width: 80%;
@@ -18,32 +17,34 @@
   -ms-border-radius: 14px;
   -o-border-radius: 14px;
 }
-
-.titleA {
+#tentang .isi .titleA {
   position: relative;
   width: 100%;
-  margin-top: 7%;
-  text-align: center;
+  margin-top: 4%;
+  text-align: start;
 }
-
-.titleA h1 {
+#tentang .isi .titleA h1 {
+  position: relative;
   letter-spacing: 2px;
   color: #1abc9c;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 38px;
 }
-
-.titleA h2 {
-  cursor: none;
-  margin-top: 0;
-  letter-spacing: -7px;
-  color: var(--sky-color);
-  max-width: 700px;
-  font-weight: bolder;
-  display: inline-block;
+#tentang .isi .titleA h1::after {
+  content: "";
+  width: 6em;
+  height: 4px;
+  left: 0.4em;
+  bottom: -10px;
+  position: absolute;
+  border-radius: 8px;
+  background-color: rgb(236, 230, 230);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
 }
-
-.isiTentang {
+#tentang .isi .isiTentang {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
@@ -51,10 +52,10 @@
   /* background-color: chocolate; */
   height: 60vh;
 }
-
-.teksTentang {
+#tentang .isi .isiTentang .teksTentang {
   height: 330px;
   width: 600px;
+  margin: auto;
   color: var(--sky-color);
   text-align: center;
   border-radius: 10px;
@@ -64,21 +65,14 @@
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
 }
-
-.teksTentang img {
+#tentang .isi .isiTentang .teksTentang img {
   height: 80px;
   width: 300px;
   margin-top: 30px;
 }
-
-.teksTentang,
-.imgTentang {
-  margin: auto;
-}
-
-.teksTentang p {
+#tentang .isi .isiTentang .teksTentang p {
   margin: 3% auto;
   width: 60%;
   font-weight: 450;
   letter-spacing: 1px;
-}
+}/*# sourceMappingURL=aboutPage.css.map */

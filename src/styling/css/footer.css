@@ -1,37 +1,20 @@
-.container {
-  max-width: 1170px;
-  margin: auto;
-  overflow: hidden;
-}
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css");
 .row {
   display: flex;
   flex-wrap: wrap;
   margin-left: 4em;
   justify-content: center;
 }
-ul {
-  list-style: none;
+.container .row {
+  max-width: 1170px;
+  margin: auto;
+  overflow: hidden;
 }
-.footer {
-  background-color: #242a2b;
-  padding: 3em 0;
-}
-
-.author {
-  display: flex;
-  justify-content: center;
-  margin-top: 6em;
-}
-
-.author > p {
-  color: #ffffff59;
-}
-
-.footer-col {
+.row .footer-col {
   width: 25%;
   padding: 0 15px;
 }
-.footer-col h4 {
+.row .footer-col h4 {
   font-size: 18px;
   color: #ffffff;
   text-transform: capitalize;
@@ -39,7 +22,7 @@ ul {
   font-weight: 500;
   position: relative;
 }
-.footer-col h4::before {
+.row .footer-col h4::before {
   content: "";
   position: absolute;
   left: 0;
@@ -54,10 +37,13 @@ ul {
   -ms-border-radius: 8px;
   -o-border-radius: 8px;
 }
-.footer-col ul li:not(:last-child) {
+.row .footer-col ul {
+  list-style: none;
+}
+.row .footer-col ul li:not(:last-child) {
   margin-bottom: 10px;
 }
-.footer-col ul li a {
+.row .footer-col ul li a {
   font-size: 16px;
   text-transform: capitalize;
   color: #ffffff;
@@ -67,11 +53,11 @@ ul {
   display: block;
   transition: all 0.3s ease;
 }
-.footer-col ul li a:hover {
+.row .footer-col ul li a:hover {
   color: #ffffff;
   padding-left: 8px;
 }
-.footer-col .social-links a {
+.row .footer-col .social-links a {
   display: inline-block;
   height: 40px;
   width: 40px;
@@ -83,9 +69,18 @@ ul {
   color: #ffffff;
   transition: all 0.5s ease;
 }
-.footer-col .social-links a:hover {
+.row .footer-col .social-links a:hover {
   color: #24262b;
   background-color: #ffffff;
+}
+
+.author {
+  display: flex;
+  justify-content: center;
+  margin-top: 6em;
+}
+.author p {
+  color: rgba(255, 255, 255, 0.3490196078);
 }
 
 /*responsive*/
@@ -99,4 +94,4 @@ ul {
   .footer-col {
     width: 100%;
   }
-}
+}/*# sourceMappingURL=footer.css.map */

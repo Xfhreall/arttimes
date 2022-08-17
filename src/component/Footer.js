@@ -1,3 +1,5 @@
+import Igithub from "../assets/icon/github.png";
+
 const Footer = () => {
   return (
     <footer className="footerPage">
@@ -32,9 +34,7 @@ const Footer = () => {
             {/* eslint-disable-next-line */}
             <h4>follow us</h4>
             <div className="social-links">
-              <a href="#">
-                <i className="fab fa-facebook-f"></i>
-              </a>
+              <a href="#"></a>
               <a href="#">
                 <i className="fab fa-twitter"></i>
               </a>

@@ -9,7 +9,6 @@ const About = () => {
             <h1 data-aos="fade-down" data-aos-once="true">
               Tentang Kami
             </h1>
-            <h2>________________</h2>
           </div>
           <div
             data-aos="zoom-in"
