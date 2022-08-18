@@ -50,7 +50,7 @@
 }
 .cardProduk:after {
   content: "";
-  background-image: url("../assets/ARTTIMES/art times 1.png");
+  background-image: url("/src/assets/ARTTIMES/art times 1.png");
   background-position: center;
   background-size: cover;
   height: 15.5em;
@@ -142,7 +142,7 @@
 }
 
 #card1 {
-  --bg-img: url("../assets/ARTTIMES/1.png");
+  --bg-img: url("/src/assets/ARTTIMES/1.png");
   --bg-filter-opacity: 0.1;
   background-image: linear-gradient(
       rgba(0, 0, 0, var(--bg-filter-opacity)),
@@ -152,7 +152,7 @@
 }
 
 #card2 {
-  --bg-img: url("../assets/ARTTIMES/2.png");
+  --bg-img: url("/src/assets/ARTTIMES/2.png");
   --bg-filter-opacity: 0.1;
   background-image: linear-gradient(
       rgba(0, 0, 0, var(--bg-filter-opacity)),
@@ -162,7 +162,7 @@
 }
 
 #card3 {
-  --bg-img: url("../assets/ARTTIMES/3.png");
+  --bg-img: url("/src/assets/ARTTIMES/3.png");
   --bg-filter-opacity: 0.1;
   background-image: linear-gradient(
       rgba(0, 0, 0, var(--bg-filter-opacity)),
@@ -172,7 +172,7 @@
 }
 
 #card4 {
-  --bg-img: url("../assets/ARTTIMES/4.png");
+  --bg-img: url("/src/assets/ARTTIMES/4.png");
   --bg-filter-opacity: 0.1;
   background-image: linear-gradient(
       rgba(0, 0, 0, var(--bg-filter-opacity)),
@@ -182,7 +182,7 @@
 }
 
 #card5 {
-  --bg-img: url("../assets/ARTTIMES/5.png");
+  --bg-img: url("/src/assets/ARTTIMES/5.png");
   --bg-filter-opacity: 0.1;
   background-image: linear-gradient(
       rgba(0, 0, 0, var(--bg-filter-opacity)),
@@ -192,7 +192,7 @@
 }
 
 #card6 {
-  --bg-img: url("../assets/ARTTIMES/6.png");
+  --bg-img: url("/src/assets/ARTTIMES/6.png");
   --bg-filter-opacity: 0.1;
   background-image: linear-gradient(
       rgba(0, 0, 0, var(--bg-filter-opacity)),
@@ -202,7 +202,7 @@
 }
 
 #card7 {
-  --bg-img: url("../assets/ARTTIMES/7.png");
+  --bg-img: url("/src/assets/ARTTIMES/7.png");
   --bg-filter-opacity: 0.1;
   background-image: linear-gradient(
       rgba(0, 0, 0, var(--bg-filter-opacity)),
