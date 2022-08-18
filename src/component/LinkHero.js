@@ -4,6 +4,9 @@ const LinkHero = () => {
       <div className="linkList">
         <ul>
           <li>
+            <p> Author :</p>
+          </li>
+          <li>
             <a
               data-aos="fade-right"
               data-aos-offset="0"
@@ -11,7 +14,7 @@ const LinkHero = () => {
               data-aos-delay="1400"
               href="#tentang"
             >
-              Tentang Kami
+              Profil
             </a>
           </li>
           <li
@@ -31,7 +34,7 @@ const LinkHero = () => {
               data-aos-delay="1000"
               href="#produk"
             >
-              Produk
+              Projek
             </a>
           </li>
           <li
@@ -51,7 +54,7 @@ const LinkHero = () => {
               data-aos-delay="1400"
               href="#hubungi"
             >
-              Hubungi
+              Kontak
             </a>
           </li>
         </ul>
