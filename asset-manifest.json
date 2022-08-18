@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/arttimes/static/css/main.adde6b4e.css",
-    "main.js": "/arttimes/static/js/main.78286721.js",
+    "main.css": "/arttimes/static/css/main.3cf917ff.css",
+    "main.js": "/arttimes/static/js/main.ab2ec67f.js",
     "static/js/787.37b26540.chunk.js": "/arttimes/static/js/787.37b26540.chunk.js",
     "static/media/7.png": "/arttimes/static/media/7.f0f24bb0c3b385b93c1e.png",
     "static/media/5.png": "/arttimes/static/media/5.2bfa2d963579c02e4727.png",
@@ -11,15 +11,17 @@
     "static/media/2.png": "/arttimes/static/media/2.e14de19ee425f6888ba6.png",
     "static/media/logo.png": "/arttimes/static/media/logo.f0729668f5c78fb65f2f.png",
     "static/media/1.png": "/arttimes/static/media/1.c5b8ee121c39ba0bc5f4.png",
-    "static/media/herobg.png": "/arttimes/static/media/herobg.3ef74e62c4dd5eb69ded.png",
+    "static/media/Picture3.png": "/arttimes/static/media/Picture3.badc0951a4ef1e032a97.png",
+    "static/media/Picture5.png": "/arttimes/static/media/Picture5.aa3647774328fab54456.png",
     "static/media/art times 1.png": "/arttimes/static/media/art times 1.1af9f41872a413266408.png",
+    "static/media/github.png": "/arttimes/static/media/github.f188e75061ea931a2cfb.png",
     "index.html": "/arttimes/index.html",
-    "main.adde6b4e.css.map": "/arttimes/static/css/main.adde6b4e.css.map",
-    "main.78286721.js.map": "/arttimes/static/js/main.78286721.js.map",
+    "main.3cf917ff.css.map": "/arttimes/static/css/main.3cf917ff.css.map",
+    "main.ab2ec67f.js.map": "/arttimes/static/js/main.ab2ec67f.js.map",
     "787.37b26540.chunk.js.map": "/arttimes/static/js/787.37b26540.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.adde6b4e.css",
-    "static/js/main.78286721.js"
+    "static/css/main.3cf917ff.css",
+    "static/js/main.ab2ec67f.js"
   ]
 }
