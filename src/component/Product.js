@@ -1,3 +1,5 @@
+import "../styling/css/product.css";
+
 const Product = () => {
   return;
   // <div>

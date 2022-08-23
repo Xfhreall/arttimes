@@ -1,4 +1,5 @@
 import logo from "../assets/asset logo/logo.png";
+import "../styling/css/navtop.css";
 
 const Navtop = () => {
   return (
@@ -14,13 +15,16 @@ const Navtop = () => {
             <a href="#beranda">Beranda</a>
           </li>
           <li>
+            <a href="#ingredient">Rincian</a>
+          </li>
+          <li>
             <a href="#tentang">Tentang</a>
           </li>
           <li>
             <a href="#produk">Karya</a>
           </li>
           <li>
-            <a className="hubungi" href="#hubungi">
+            <a className="aktif" href="#hubungi">
               Hubungi
             </a>
           </li>
@@ -42,13 +46,16 @@ const Navtop = () => {
             <a href="#beranda">Beranda</a>
           </li>
           <li>
+            <a href="#ingredient">Rincian</a>
+          </li>
+          <li>
             <a href="#tentang">Tentang</a>
           </li>
           <li>
             <a href="#produk">Karya</a>
           </li>
           <li>
-            <a className="hubungi" href="#hubungi">
+            <a className="aktif" href="#hubungi">
               Hubungi
             </a>
           </li>

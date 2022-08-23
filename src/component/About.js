@@ -1,4 +1,5 @@
 import logo from "../assets/asset logo/logo.png";
+import "../styling/css/aboutPage.css";
 
 const About = () => {
   return (

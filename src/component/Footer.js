@@ -1,4 +1,5 @@
 import Igithub from "../assets/icon/github.png";
+import "../styling/css/footer.css";
 
 const Footer = () => {
   return (

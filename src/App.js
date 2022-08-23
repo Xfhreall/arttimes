@@ -7,17 +7,8 @@ import Contact from "./component/Contact";
 import Footer from "./component/Footer";
 import LinkHero from "./component/LinkHero";
 import Ingredient from "./component/Ingredient";
-// import css
-import "./styling/css/navtop.css";
-import "./styling/css/heroPage.css";
-import "./styling/css/aboutPage.css";
-import "./styling/css/product.css";
-import "./styling/css/contact.css";
-import "./styling/css/footer.css";
-import "./styling/css/linkHero.css";
-import "./styling/css/ingredient.css";
 
-function App() {
+const App = () => {
   return (
     <div>
       <div className="landing">
@@ -46,6 +37,6 @@ function App() {
       </div>
     </div>
   );
-}
+};
 
 export default App;

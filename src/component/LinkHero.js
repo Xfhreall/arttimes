@@ -1,3 +1,5 @@
+import "./styling/css/linkHero.css";
+
 const LinkHero = () => {
   return (
     <section className="linkHero">

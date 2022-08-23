@@ -1,6 +1,6 @@
 #logo img {
   display: flex;
-  width: 32%;
+  width: 36%;
   height: 8%;
   margin: 10px;
 }
@@ -19,7 +19,7 @@
   z-index: 100;
 
   .navigation {
-    width: 80%;
+    width: 90%;
     height: 15vh;
     display: flex;
     justify-content: center;
@@ -27,8 +27,7 @@
 
     li {
       list-style-type: none;
-      padding: 8px;
-      margin: 5px;
+      padding: 1.5em;
 
       a {
         color: rgb(241, 234, 234);
@@ -45,11 +44,39 @@
         align-items: center;
         cursor: pointer;
 
+        &.aktif {
+          border: 2px solid #fff;
+          display: inline-block;
+          padding: 4px 8px;
+          border-radius: 4px;
+          transition: all 0.7s ease-in-out;
+          -webkit-border-radius: 4px;
+          -moz-border-radius: 4px;
+          -ms-border-radius: 4px;
+          -o-border-radius: 4px;
+          -webkit-transition: all 0.4s ease-in-out;
+          -moz-transition: all 0.7s ease-in-out;
+          -ms-transition: all 0.7s ease-in-out;
+          -o-transition: all 0.7s ease-in-out;
+
+          &:hover {
+            border: 2px solid #1abc9c;
+            background-color: #1abc9c;
+            padding: 3px 12px;
+            border-radius: 25px;
+            letter-spacing: 1px;
+            -webkit-border-radius: 25px;
+            -moz-border-radius: 25px;
+            -ms-border-radius: 25px;
+            -o-border-radius: 25px;
+          }
+        }
+
         &:hover {
           color: #fff;
         }
 
-        &::after {
+        &:not(.aktif):after {
           content: "";
           position: absolute;
           width: 0;
@@ -70,7 +97,7 @@
           -o-border-radius: 8px;
         }
 
-        &:hover::after {
+        &:not(.aktif):hover::after {
           left: 0;
           width: 100%;
           opacity: 1;
@@ -125,11 +152,39 @@
         text-align: center;
         cursor: pointer;
 
+        &.aktif {
+          border: 2px solid #fff;
+          display: inline-block;
+          padding: 4px 8px;
+          border-radius: 4px;
+          transition: all 0.7s ease-in-out;
+          -webkit-border-radius: 4px;
+          -moz-border-radius: 4px;
+          -ms-border-radius: 4px;
+          -o-border-radius: 4px;
+          -webkit-transition: all 0.4s ease-in-out;
+          -moz-transition: all 0.7s ease-in-out;
+          -ms-transition: all 0.7s ease-in-out;
+          -o-transition: all 0.7s ease-in-out;
+
+          &:hover {
+            border: 2px solid #1abc9c;
+            background-color: #1abc9c;
+            padding: 3px 12px;
+            border-radius: 25px;
+            letter-spacing: 1px;
+            -webkit-border-radius: 25px;
+            -moz-border-radius: 25px;
+            -ms-border-radius: 25px;
+            -o-border-radius: 25px;
+          }
+        }
+
         &:hover {
           color: var(--sky-color);
         }
 
-        &::after {
+        &:not(.aktif)::after {
           content: "";
           position: absolute;
           width: 0;
@@ -150,7 +205,7 @@
           -o-border-radius: 8px;
         }
 
-        &:hover::after {
+        &:not(.aktif):hover::after {
           left: 0;
           width: 100%;
           opacity: 1;

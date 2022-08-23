@@ -1,4 +1,5 @@
 import Logo from "../assets/icon/Picture5.png";
+import "./styling/css/ingredient.css";
 
 const Ingredient = () => {
   return (
