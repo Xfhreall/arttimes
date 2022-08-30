@@ -1,37 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
 
-//var color
-$test-color: brown;
-
 #komposisi {
-    width: 100%;
-    height: 80vh;
-    background-color: var(--black-color);
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+  width: 100%;
+  height: 80vh;
+  background-color: var(--black-color);
+  display: flex;
+  justify-content: center;
 }
 
-.imgIng {
+.ing-contain {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  width: max-content;
+  .ing-text {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 40%;
-    height: 100%;
 
-    img {
-        width: 28em;
-        height: 23em;
+    .ing-text-title {
+      justify-content: center;
+      color: #fff;
     }
-}
-
-
-.teksIng {
-    width: 40%;
-    height: 100%;
-    background-color: $test-color;
-    justify-content: center;
-    display: flex;
-    flex-wrap: wrap;
-    position: relative;
+  }
 }

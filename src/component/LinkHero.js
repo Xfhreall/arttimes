@@ -1,4 +1,4 @@
-import "./styling/css/linkHero.css";
+import "../styling/css/linkHero.css";
 
 const LinkHero = () => {
   return (

@@ -8,6 +8,12 @@ import Footer from "./component/Footer";
 import LinkHero from "./component/LinkHero";
 import Ingredient from "./component/Ingredient";
 
+{
+  /*untuk menggunakan lottie
+1. import Lottie from "lottie-react" 
+2. import 'lottie element' from 'src lokal lottie'*/
+}
+
 const App = () => {
   return (
     <div>

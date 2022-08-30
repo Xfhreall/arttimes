@@ -5,27 +5,21 @@
   background-color: var(--black-color);
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
 }
 
-.imgIng {
-  display: flex;
+.ing-contain {
+  display: grid;
+  justify-content: center;
   align-items: center;
-  justify-content: center;
-  width: 40%;
-  height: 100%;
+  grid-template-columns: 1fr 1fr;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
 }
-.imgIng img {
-  width: 28em;
-  height: 23em;
-}
-
-.teksIng {
-  width: 40%;
-  height: 100%;
-  background-color: brown;
-  justify-content: center;
+.ing-contain .ing-text {
   display: flex;
-  flex-wrap: wrap;
-  position: relative;
+}
+.ing-contain .ing-text .ing-text-title {
+  justify-content: center;
+  color: #fff;
 }/*# sourceMappingURL=ingredient.css.map */

@@ -1,4 +1,10 @@
-import Igithub from "../assets/icon/github.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faInstagram,
+  faGithub,
+  faGoogle,
+  faWhatsapp,
+} from "@fortawesome/free-brands-svg-icons";
 import "../styling/css/footer.css";
 
 const Footer = () => {
@@ -35,15 +41,17 @@ const Footer = () => {
             {/* eslint-disable-next-line */}
             <h4>follow us</h4>
             <div className="social-links">
-              <a href="#"></a>
               <a href="#">
-                <i className="fab fa-twitter"></i>
+                <FontAwesomeIcon icon={faGithub} size="lg" />
               </a>
               <a href="#">
-                <i className="fab fa-instagram"></i>
+                <FontAwesomeIcon icon={faGoogle} size="lg" />
               </a>
               <a href="#">
-                <i className="fab fa-linkedin-in"></i>
+                <FontAwesomeIcon icon={faInstagram} size="lg" />
+              </a>
+              <a href="#">
+                <FontAwesomeIcon icon={faWhatsapp} size="lg" />
               </a>
             </div>
           </div>

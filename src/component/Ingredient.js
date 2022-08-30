@@ -1,23 +1,22 @@
-import Logo from "../assets/icon/Picture5.png";
-import "./styling/css/ingredient.css";
+import "../styling/css/ingredient.css";
+import Lottie from "lottie-react";
+import IngAnimation from "../assets/lottie/webDevelopment.json";
 
 const Ingredient = () => {
   return (
     <section id="komposisi">
-      <div
-        className="imgIng"
-        data-aos="fade-right"
-        data-aos-offset="400"
-        data-aos-duration="1700"
-      >
-        <img src={Logo} />
-      </div>
-      <div className="teksIng">
-        <div className="judulIng">
-          <h1>#build with</h1>
+      <div className="ing-contain">
+        <div className="ing-lottie">
+          <Lottie
+            animationData={IngAnimation}
+            loop={true}
+            style={{ height: "450px", widht: "450px" }}
+          />
         </div>
-        <div className="subJudulIng">
-          <p>Lorem dasmkmdkmasmdkasmkasmm</p>
+        <div className="ing-text">
+          <div className="ing-text-title">
+            <h1 style={{ marginLeft: "1em" }}>KAKAK</h1>
+          </div>
         </div>
       </div>
     </section>

@@ -1,5 +1,7 @@
-import logoHP from "../assets/img/Group 2.png";
+// import logoHP from "../assets/img/Group 2.png";
 import "../styling/css/heroPage.css";
+import Lottie from "lottie-react";
+import welcomeAnimation from "../assets/lottie/support.json";
 
 const HeroPage = () => {
   return (
@@ -27,7 +29,18 @@ const HeroPage = () => {
         </div>
       </div>
 
-      <div className="hero-image">
+      <Lottie
+        className="heroAnimation"
+        data-aos="fade-left"
+        data-aos-offset="0"
+        data-aos-delay="500"
+        data-aos-duration="1700"
+        style={{ marginTop: "4em", marginRight: "3em" }}
+        animationData={welcomeAnimation}
+        loop={true}
+      />
+
+      {/* <div className="hero-image">
         <img
           src={logoHP}
           alt="logo"
@@ -36,7 +49,7 @@ const HeroPage = () => {
           data-aos-duration="1700"
           data-aos-delay="500"
         />
-      </div>
+      </div> */}
       <div class="scrolldown">
         <div class="chevrons">
           <div class="chevrondown"></div>
